@@ -1,0 +1,11 @@
+.total-service{
+  margin: 150px auto;
+}
+.service{
+  padding: 25px;
+}
+@media (max-width:1024px){
+  .total-service{
+    margin: 50px auto;
+  }
+}
