@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +27,7 @@
       <div class="navbar">      
         <div class="nav-logo">
           <img src="IMAGES/FOODIFY LOGO.png" alt="Foodify Network Logo" />
-          <h1>Foodify Network</h1>
+          <h1 class="cursor-pointer">Foodify Network</h1>
         </div>      
         <div class="nav-menu">
           <ul class="nav-links">
@@ -50,9 +50,9 @@
         </div>
       </div>
     </nav>
-    <div class="h-screen flex flex-col gap-12 justify-center items-center text-center px-4 ">
+    <div id="Home" class="h-screen flex flex-col gap-12 justify-center items-center text-center px-4 ">
      <h1 data-aos="fade-up" class="nav-hero-text text-primary text-[55px] md:text-[100px] leading-tight font-secondary">Discover Exquisite Flavors at <span data-aos="fade-up" data-aos-delay="500" class="text-accent">Foodify</span></h1>
-     <p data-aos="fade-up" data-aos-delay="700"  class="text-primary text-[20px] leading-relaxed max-w-[800px] mx-auto px-4">Step into a world of culinary delight at Savorium, where every dish is a masterpiece crafted with passion and precision. Indulge your senses in a symphony of flavors curated by our talented chefs, blending global inspirations with locally sourced ingredients.</p>
+     <p data-aos="fade-up" data-aos-delay="700"  class="text-primary text-[20px] leading-relaxed max-w-[800px] mx-auto px-4">Step into a world of culinary delight at Foodify, where every dish is a masterpiece crafted with passion and precision. Indulge your senses in a symphony of flavors curated by our talented chefs, blending global inspirations with locally sourced ingredients.</p>
      
     <div class="flex justify-center items-center gap-4 text-primary">
       <button data-aos="fade-up" data-aos-delay="800" class="nav-more-buttons text-[20px] border border-accent rounded-lg bg-accent cursor-pointer hover:bg-transparent transition-all">Book a Table </button>
@@ -62,8 +62,8 @@
 </div>
   </header>
   <main>
-    <section><!--services-->
-      <div class="total-service grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[90%] ">
+    <section><!-- services -->
+      <div id="About" class="total-service grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[90%] ">
         <div data-aos="fade-up"  class="service flex flex-col justify-center items-center bg-primary rounded-xl">
           <img src="IMAGES/exquisite Cuisine.jpg" alt="exquisite Cuisine"/>
           <h5 class="font-secondary text-[25px] text-center">Exquisite Cuisine</h5>
@@ -86,6 +86,38 @@
         </div>
 
 
+      </div>
+    </section>
+    <section><!-- welcome -->
+      <div class="welcome-flex grid grid-cols-1 items-start gap-6 lg:grid-cols-2 max-w-[90%]">
+        <div data-aos="fade-right" class="flex flex-col gap-6">
+          <h1 class="text-[40px] font-secondary md:text-[60px]"> Welcome To Our <span class="text-accent">Luxury Restaurant</span></h1>
+          <h3 class="text-[18px]">Welcome to Foodify, where luxury meets culinary excellence. Indulge in an unforgettable dining experience where every dish is crafted with passion and precision. Enjoy a sophisticated ambiance, impeccable service, and a menu showcasing the finest ingredients sourced from around the world. We invite you to savor the essence of luxury dining at Foodify.</h3>
+          <div>
+            <button class="welcome-button text-primary border border-accent bg-accent rounded-lg hover:bg-transparent hover:text-accent">More about Us</button>
+          </div>
+        </div>
+        <aside class="flex items-start gap-2 md:gap-4">
+          <div class="flex flex-col gap-2 md:gap-4">
+            <div data-aos="fade-down" class="overflow-hidden rounded-lg ">
+              <img class="border border-accent transition duration-700 hover:scale-125" src="IMAGES/welcome-main.jpg" alt="ambiance Foodify">
+            </div>
+            <div data-aos="fade-up" class="elegant-image w-7/12 overflow-hidden rounded-lg">
+              <img class="border border-accent transition duration-700 hover:scale-125" src="IMAGES/welcome2.jpg" alt="elegant Foodify">
+            </div>
+          </div>
+          <div data-aos="fade-right" class="overflow-hidden rounded-lg">
+            <img class="border border-accent transition duration-700 hover:scale-125" src="IMAGES/welcome1.jpg" alt="welcome to Foodify">
+          </div>
+          <div  data-aos="fade-left" class="flex flex-col gap-2 md:gap-4">
+            <div class="overflow-hidden rounded-lg">
+              <img class="transition duration-700 hover:scale-125" src="IMAGES/welcome33.jpg" alt="Exquisite Foodify">
+            </div>
+            <div data-aos="fade-right" class="ml-0 w-10/12 overflow-hidden rounded-lg">
+              <img class=" border border-accent transition duration-700 hover:scale-125" src="IMAGES/welcome4.jpg" alt="seasonal Foodify">
+            </div>
+          </div>
+        </aside>
       </div>
     </section>
   </main>

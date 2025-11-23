@@ -1,0 +1,24 @@
+/* SERVICES SECTION*/
+
+.total-service{
+  margin: 150px auto;
+}
+.service{
+  padding: 25px;
+}
+@media (max-width:1024px){
+  .total-service{
+    margin: 50px auto;
+  }
+}
+
+/* WELCOME SECTION */
+.welcome-button{
+  padding: 20px;
+}
+.welcome-flex{
+  margin: 0 auto;
+}
+.elegant-image{
+  margin-left: auto;
+}
