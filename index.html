@@ -7,7 +7,7 @@
   <!-- Font Link I -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+NZ+Guides&family=Quintessential&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..500&family=Playwrite+NZ+Guides&family=Quintessential&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <!-- Font Link II -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +50,7 @@
         </div>
       </div>
     </nav>
-    <div id="Home" class="h-screen flex flex-col gap-12 justify-center items-center text-center px-4 ">
+    <div id="Home" class="h-screen flex flex-col gap-12 justify-center items-center text-center px-4">
      <h1 data-aos="fade-up" class="nav-hero-text text-primary text-[55px] md:text-[100px] leading-tight font-secondary">Discover Exquisite Flavors at <span data-aos="fade-up" data-aos-delay="500" class="text-accent">Foodify</span></h1>
      <p data-aos="fade-up" data-aos-delay="700"  class="text-primary text-[20px] leading-relaxed max-w-[800px] mx-auto px-4">Step into a world of culinary delight at Foodify, where every dish is a masterpiece crafted with passion and precision. Indulge your senses in a symphony of flavors curated by our talented chefs, blending global inspirations with locally sourced ingredients.</p>
      
@@ -121,7 +121,7 @@
       </div>
     </section>
     <section><!--square sliders-->
-      <div class="total-carousel relative w-full h-20 flex justify-center items-center overflow-hidden">
+      <div class="total-carousel  relative w-full h-20 flex justify-center items-center overflow-hidden">
         <div class="font-secondary relative text-[50px] font-bold text-primary carousel">
           <span class="carousel-item">Breakfast</span>
           <span class="carousel-item">Lunch</span>
@@ -129,8 +129,79 @@
         </div>
       </div>
     </section>
-
-
+    <section><!--dish menu-->
+      <div class="dish-menu grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-4 lg:grid-cols-3 lg:gap-6  max-w-[80%] ">
+        <div data-aos="fade-up" class="service flex flex-col justify-center gap-4 items-left bg-primary rounded-xl">
+          <div class="overflow-hidden">
+            <img class="hover:scale-125 transition duration-600 " src="./IMAGES/chicken-breast.jpg" alt="chicken-breast">
+          </div>
+          <h2 class="text-left font-secondary text-[25px]">Chicken breasts stuffed</h2>
+          <p class="text-left text-[18px]">Tender salmon fillets grilled to perfection, served with a creamy lemon-dill sauce, roasted potatoes, and steamed asparagus</p>
+          <div class="dish-price flex items-center justify-between">
+            <p class="text-accent text-[20px]">$40.00</p>
+            <i class='bxr  bx-cart text-accent text-[20px]'></i> 
+          </div>
+        </div>
+        <div data-aos="fade-up" class="service flex flex-col justify-center gap-4 items-left bg-primary rounded-xl">
+          <div class="overflow-hidden">
+            <img class="hover:scale-125 transition duration-600" src="./IMAGES/vegetarian-stuffed.jpg" alt="Vegetarian stuffed Bell">
+          </div>
+          <h2 class="text-left font-secondary text-[25px]">Vegetarian Stuffed Bell Peppers</h2>
+          <p class="text-left text-[18px]">Tender salmon fillets grilled to perfection, served with a creamy lemon-dill sauce, roasted potatoes, and steamed asparagus</p>
+          <div class="dish-price flex items-center justify-between">
+            <p class="text-accent text-[20px]">$35.00</p>
+            <i class='bxr  bx-cart text-accent text-[20px]'></i> 
+          </div>
+        </div>
+        <div data-aos="fade-up" class="service flex flex-col justify-center gap-4 items-left bg-primary rounded-xl">
+          <div class="overflow-hidden">
+            <img class="hover:scale-125 transition duration-600"  src="./IMAGES/beef-tenderloin.jpg" alt="Beef tenderloin">
+          </div>
+          <h2 class="text-left font-secondary text-[25px]">Beef tenderloin steak</h2>
+          <p class="text-left text-[18px]">Tender salmon fillets grilled to perfection, served with a creamy lemon-dill sauce, roasted potatoes, and steamed asparagus</p>
+          <div class="dish-price flex items-center justify-between">
+            <p class="text-accent text-[20px]">$20.00</p>
+            <i class='bxr  bx-cart text-accent text-[20px]'></i> 
+          </div>
+        </div>
+        <div data-aos="fade-up" class="service flex flex-col justify-center gap-4 items-left bg-primary rounded-xl">
+          <div class="overflow-hidden">
+            <img class="hover:scale-125 transition duration-600"  src="./IMAGES/Thai red curry.jpg" alt="Thai red curry">
+          </div>
+          <h2 class="text-left font-secondary text-[25px]">Thai Red Curry with Tofu</h2>
+          <p class="text-left text-[18px]">Tender salmon fillets grilled to perfection, served with a creamy lemon-dill sauce, roasted potatoes, and steamed asparagus</p>
+          <div class="dish-price flex items-center justify-between">
+            <p class="text-accent text-[20px]">$45.00</p>
+            <i class='bxr  bx-cart text-accent text-[20px]'></i> 
+          </div>
+        </div>
+        <div data-aos="fade-up" class="service flex flex-col justify-center gap-4 items-left bg-primary rounded-xl">
+          <div class="overflow-hidden">
+            <img class="hover:scale-125 transition duration-600" src="./IMAGES/salmon.jpg" alt="grilled salmon">
+          </div>
+          <h2 class="text-left font-secondary text-[25px]">Grilled salmon with lemon with dill sauce</h2>
+          <p class="text-left text-[18px]">Tender salmon fillets grilled to perfection, served with a creamy lemon-dill sauce, roasted potatoes, and steamed asparagus</p>
+          <div class="dish-price flex items-center justify-between">
+            <p class="text-accent text-[20px]">$30.00</p>
+            <i class='bxr  bx-cart text-accent text-[20px]'></i> 
+          </div>
+        </div>
+        <div data-aos="fade-up" class="service flex flex-col justify-center gap-4 items-left bg-primary rounded-xl">
+          <div class="overflow-hidden">
+            <img class="hover:scale-125 transition duration-600"  src="./IMAGES/mushroom risotto.jpg" alt="Mushroom Risotto">
+          </div>
+          <h2 class="text-left font-secondary text-[25px]">Mushroom Risotto</h2>
+          <p class="text-left text-[18px]">Tender salmon fillets grilled to perfection, served with a creamy lemon-dill sauce, roasted potatoes, and steamed asparagus</p>
+          <div class="dish-price flex items-center justify-between">
+            <p class="text-accent text-[20px]">$40.00</p>
+            <i class='bxr  bx-cart text-accent text-[20px]'></i> 
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-up" class="flex items-center justify-center">
+        <button class="menu-button  text-primary border border-accent bg-accent rounded-lg hover:bg-transparent hover:text-accent">See Menu List</button>
+      </div>
+    </section>
   </main>
   <script src="JAVASCRIPT/index.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

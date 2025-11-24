@@ -56,3 +56,26 @@
     transform: translateX(200px) scale(0.7);   /* Back to right */
   }
 }
+
+
+/* Dish Menu */
+.service{
+  padding:15px;
+}
+
+.dish-menu{
+  margin: auto;
+}
+.dish-price{
+  margin-top: 25px;
+}
+.menu-button{
+  padding: 20px;
+  margin: 100px 0;
+}
+
+@media (max-width: 1024px) {
+  .dish-menu{
+    max-width: 90%;
+  }
+}
