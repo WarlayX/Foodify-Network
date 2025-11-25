@@ -28,8 +28,6 @@
   cursor: grab;
  }
 
-
-
 @media (max-width: 1024px) {
   .test-container{
     max-width: 95%;

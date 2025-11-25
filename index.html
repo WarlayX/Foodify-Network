@@ -130,7 +130,7 @@
       </div>
     </section>
     <section><!-- dish menu -->
-      <div class="dish-menu grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-4 lg:grid-cols-3 lg:gap-6  max-w-[80%] ">
+      <div id="Dishes" class="dish-menu grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-4 lg:grid-cols-3 lg:gap-6  max-w-[80%] ">
         <div data-aos="fade-up" class="service flex flex-col justify-center gap-4 items-left bg-primary rounded-xl">
           <div class="overflow-hidden">
             <img class="hover:scale-125 transition duration-600 " src="./IMAGES/chicken-breast.jpg" alt="chicken-breast">
@@ -215,6 +215,40 @@
           </div>
           <i id="next" class='icons-click bxr  bx-chevron-right-circle text-accent text-[40px] cursor-pointer'></i> 
         </div>
+      </div>
+    </section>
+    <section><!-- contact -->
+      <div id="Reservation" class="container grid grid-cols-1 items-center gap-4 py-14 lg:grid-cols-2 lg:gap-10 lg:py-28 max-w-[85%]">
+        <aside>
+          <h2 data-aos="fade-right" data-aos-duration="1000" class="contact-title">Book a Table for you</h2>
+          <form action="#">
+            <div data-aos="fade-right" data-aos-delay="400" class="contact-form">
+              <input class="contact-name" type="text" id="name" name="name" placeholder="Enter your name">
+              <input class="contact-email" type="email" id="email" name="email" placeholder="Enter your email">
+              <select class="contact-person" id="persons" name="persons">
+                <option value="" disabled selected>Persons</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <input class="contact-date" type="date" id="date" name="date">
+              <input class="contact-time" type="time" id="time" name="time">
+              <div>
+                <button class="contact-button" type="submit">Book a table</button>
+              </div>
+            </div>
+          </form>
+        </aside>
+        <aside>
+          <div data-aos="fade-left" class="shadow-container">
+            <div class="shadow-border"></div>
+            <div>
+              <img class="shadow-image" src="IMAGES/contact-image.jpg" alt="display-contact">
+            </div>
+          </div>
+        </aside>
       </div>
     </section>
   </main>

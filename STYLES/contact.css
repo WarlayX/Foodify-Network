@@ -1,0 +1,83 @@
+.container{
+  margin: 100px auto ;
+}
+.contact-title{
+  font-family: "Quintessential", serif;
+  text-align: center;
+  font-size: 70px;
+}
+.contact-form{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact-name, .contact-email, .contact-person, .contact-date, .contact-time {
+  outline: none;
+  font-size: 20px;
+  padding: 15px;
+}
+.contact-name, .contact-date, .contact-time {
+  border-bottom: 1px solid #FF6347;
+}
+.contact-person{
+  appearance: none;
+  border: 1px solid #FF6347;
+}
+.contact-button{
+  background-color: #FF6347;
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+  border: 1px solid #FF6347;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact-button:hover{
+  background-color: transparent;
+  color: #FF6347;
+}
+.shadow-container {
+  position: relative;
+  display: inline-block;
+}
+
+.shadow-image {
+  display: block; 
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  border-top-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+}
+
+.shadow-border {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #FF6347;
+  pointer-events: none;
+  box-sizing: border-box;
+  border-top-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+}
+
+
+@media (max-width: 780px){
+  .contact-title{
+    font-size: 30px;
+  }
+  .shadow-border, .shadow-image {
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+   .shadow-border{
+    border: 1px solid #FF6347;
+   }
+   .container{
+    gap: 50px;
+   }
+}
