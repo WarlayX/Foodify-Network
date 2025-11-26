@@ -1,11 +1,12 @@
 .testimonial{
   margin-bottom: 100px;
-  background-image: url('../IMAGES/testimonial\ background.jpg');
-  background-size: fill;
+  background-image: url('../IMAGES/napkins-table-dark-room.jpg');
+  background-size: cover;
+  background-position: center;
   height: 400px;
 }
 .test-title{
-  font-family: "Quintessential", serif;;
+  font-family: "Quintessential", serif;
   text-align: center;
   color: #FF6347;
   font-size: 60px;
@@ -16,24 +17,61 @@
   align-items: center;
   justify-content: center;
   gap: 24px;
-  max-width: 80%;
   margin: 20px auto;
 } 
+.test-viewport{
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.slider-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+  width: 100%;
+}
+.slide {
+  min-width: 100%;     
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
 .test-name{
   font-size: 30px;
   color: gray;
   cursor: grab;
 }
- .test-note{
+.test-note{
   cursor: grab;
  }
+
+.icons-click:hover{
+  color: #FFFF;
+}
+.test-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.test-indicators .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ccc;         /* inactive color */
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.test-indicators .dot.active {
+  background: #FF6F61;       /* active color */
+}
 
 @media (max-width: 1024px) {
   .test-container{
     max-width: 95%;
   }
 }
-
 @media (max-width: 800px) {
   .test-title{
     font-size: 40px;
@@ -42,12 +80,16 @@
     font-size: 0;
   }
 }
-
+@media (max-width: 650px) {
+  .testimonial{
+    height: 480px;
+  }
+}
 @media (max-width: 480px) {
   .test-name{
     font-size: 25px;
   }
   .test-note{
-    font-size: 17px;
+    font-size: 15px;
   }
 }

@@ -1,0 +1,22 @@
+.total-footer{
+  margin: auto;
+  padding: 200px 0;
+}
+.foot-border{
+  margin: auto;
+  padding: 20px 0;
+}
+
+@media (max-width: 1024px){
+  .total-footer{
+    padding: 100px 0;
+  }
+}
+@media (max-width: 768px){
+  .total-footer{
+    padding: 50px 0;
+  }
+  .contact-subject, .foot-border h1{
+    font-size: 14px;
+  }
+}

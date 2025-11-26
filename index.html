@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="STYLES/main.css">
   <!--other links-->
   <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
   <link rel="icon" type="images/png" href="IMAGES/FOODIFY LOGO.png"/>
   <link href="./output.css" rel="stylesheet">
@@ -45,7 +46,7 @@
           <button class="nav-button-II">Book a Table</button>
         </div>
         <div class="sides-open-close">
-          <i class='bxr  bx-menu side-open'></i> 
+          <i class='bxr  bx-menu-close side-open'></i> 
           <i class='bxr  bx-x side-close'></i> 
         </div>
       </div>
@@ -63,33 +64,31 @@
   </header>
   <main>
     <section><!-- services -->
-      <div id="About" class="total-service grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[90%] ">
+      <div id="About" class="total-service grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[90%] overflow-hidden">
         <div data-aos="fade-up"  class="service flex flex-col justify-center items-center bg-primary rounded-xl">
           <img src="IMAGES/exquisite Cuisine.jpg" alt="exquisite Cuisine"/>
           <h5 class="font-secondary text-[25px] text-center">Exquisite Cuisine</h5>
           <p class="text-[20px] text-center">Indulge in a diverse menu featuring exquisite dishes crafted with the finest ingredients and culinary expertise.</p>
         </div>
-        <div data-aos="fade-up" data-aos-delay="500" class="service flex flex-col justify-center items-center bg-primary rounded-xl">
+        <div data-aos="fade-up" data-aos-delay="300" class="service flex flex-col justify-center items-center bg-primary rounded-xl">
           <img src="IMAGES/elegant Ambiance.jpg" alt="exquisite Cuisine"/>
           <h5 class="font-secondary text-[25px] text-center">Elegance Ambiance</h5>
           <p class="text-[20px] text-center">Immerse in an elegant ambiance, perfect for romantic dinners or celebratory meals, elevating your dining experience</p>
         </div>
-        <div data-aos="fade-up" data-aos-delay="1000"class="service flex flex-col justify-center items-center bg-primary rounded-xl">
+        <div data-aos="fade-up" data-aos-delay="600"class="service flex flex-col justify-center items-center bg-primary rounded-xl">
           <img src="IMAGES/exceptional service.jpg" alt="exquisite Cuisine"/>
           <h5 class="font-secondary text-[25px] text-center">Exceptional Service</h5>
           <p class="text-[20px] text-center">Enjoy attentive and professional service from our dedicated staff, ensuring a seamless and memorable dining experience</p>
         </div>
-        <div data-aos="fade-up" data-aos-delay="1500" class="service flex flex-col justify-center items-center bg-primary rounded-xl">
+        <div data-aos="fade-up" data-aos-delay="900" class="service flex flex-col justify-center items-center bg-primary rounded-xl">
           <img src="IMAGES/seasonal specialties.jpg" alt="exquisite Cuisine"/>
           <h5 class="font-secondary text-[25px] text-center">Seasonal Specialties</h5>
           <p class="text-[20px] text-center ">Explore our rotating seasonal menu, offering fresh and innovative dishes inspired by the flavors of the season</p>
         </div>
-
-
       </div>
     </section>
-    <section><!-- welcome -->
-      <div class="welcome-flex grid grid-cols-1 items-start gap-6 lg:grid-cols-2 max-w-[90%]">
+    <section> <!--welcome --> 
+      <div class="welcome-flex grid grid-cols-1 items-start gap-6 lg:grid-cols-2 max-w-[90%] overflow-hidden">
         <div class="flex flex-col gap-6">
           <h1  data-aos="fade-right" class="text-[40px] font-secondary md:text-[60px]"> Welcome To Our <span class="text-accent">Luxury Restaurant</span></h1>
           <h3  data-aos="fade-right" data-aos-delay="300" class="text-[18px]">Welcome to Foodify, where luxury meets culinary excellence. Indulge in an unforgettable dining experience where every dish is crafted with passion and precision. Enjoy a sophisticated ambiance, impeccable service, and a menu showcasing the finest ingredients sourced from around the world. We invite you to savor the essence of luxury dining at Foodify.</h3>
@@ -120,7 +119,7 @@
         </aside>
       </div>
     </section>
-    <section><!-- square sliders -->
+    <section> <!-- square sliders -->
       <div class="total-carousel  relative w-full h-20 flex justify-center items-center overflow-hidden">
         <div class="font-secondary text-[50px] font-bold text-primary carousel">
           <span class="carousel-item">Breakfast</span>
@@ -129,8 +128,8 @@
         </div>
       </div>
     </section>
-    <section><!-- dish menu -->
-      <div id="Dishes" class="dish-menu grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-4 lg:grid-cols-3 lg:gap-6  max-w-[80%] ">
+    <section> <!-- dish menu --> 
+      <div id="Dishes" class="dish-menu grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-4 lg:grid-cols-3 lg:gap-6  max-w-[80%] overflow-hidden">
         <div data-aos="fade-up" class="service flex flex-col justify-center gap-4 items-left bg-primary rounded-xl">
           <div class="overflow-hidden">
             <img class="hover:scale-125 transition duration-600 " src="./IMAGES/chicken-breast.jpg" alt="chicken-breast">
@@ -202,23 +201,43 @@
         <button class="menu-button  text-primary border border-accent bg-accent rounded-lg hover:bg-transparent hover:text-accent">See Menu List</button>
       </div>
     </section>
-    <section><!-- Testimonial --> 
-      <div class="testimonial">
+    <section> <!-- Testimonial-->  
+      <div class="testimonial overflow-hidden">
         <h1 class="test-title">People Love Us</h1>
         <div class="test-container">
-          <i id="prev" class='icons-click bxr  bx-chevron-left-circle text-accent text-[40px] cursor-pointer'></i> 
-          <div id="slider">
-            <div class="flex flex-col align-center justify-center gap-6 text-center">
-              <p class="test-note text-primary text-[20px]">From the moment we stepped in, the warm ambiance and attentive service made us feel welcome. And the food? Absolutely divine! Each dish was bursting with flavor and beautifully presented. Dining at Foodify was truly a memorable experience that we can't wait to repeat.</p>
-              <h3 class="test-name font-secondary"> - Owoniyi Kehinde</h3>
-            </div> 
+          <i id="prev" class='bxr  bx-chevrons-left icons-click text-accent text-[40px] cursor-pointer'></i> 
+
+          <div class="test-viewport text-center">
+            <div id="slider" class="slider-track" aria-live="polite">
+              <!-- Testimonial 1 -->
+              <div class="slide" data-slide="0" role="group" aria-roledescription="slide" aria-label="Testimonial 1">
+                <p class="test-note text-primary text-[20px]">From the moment we stepped in, the warm ambiance and attentive service made us feel welcome. And the food? Absolutely divine! Each dish was bursting with flavor and beautifully presented. Dining at Foodify was truly a memorable experience that we can't wait to repeat.</p>
+                <h3 class="test-name font-secondary"> - Owoniyi Kehinde</h3>
+              </div> 
+
+              <!-- Testimonial 2 -->
+              <div class="slide" data-slide="1" role="group" aria-roledescription="slide" aria-label="Testimonial 2">
+                <p class="test-note text-primary text-[20px]">Amazing experience! The ambience and food were top-tier. The staff were professional and friendly — a truly exceptional dining experience.</p>
+                <h3 class="test-name font-secondary"> - Omolara Johnson</h3>
+              </div>
+
+              <!-- Testimonial 3 -->
+              <div class="slide" data-slide="2" role="group" aria-roledescription="slide" aria-label="Testimonial 3">
+                <p class="test-note text-primary text-[20px]">Definitely coming again! The flavors were out of this world and the presentation was superb. Highly recommended for anyone who loves great food.</p>
+                <h3 class="test-name font-secondary"> - Hassan Abdul</h3>
+              </div>
+            </div>
           </div>
-          <i id="next" class='icons-click bxr  bx-chevron-right-circle text-accent text-[40px] cursor-pointer'></i> 
+
+          <i id="next" class='bxr  bx-chevrons-right icons-click text-accent text-[40px] cursor-pointer'></i> 
         </div>
+        
+        <div class="test-indicators" aria-hidden="true"></div>
       </div>
+      
     </section>
-    <section><!-- contact -->
-      <div id="Reservation" class="container grid grid-cols-1 items-center gap-4 py-14 lg:grid-cols-2 lg:gap-10 lg:py-28 max-w-[85%]">
+    <section> <!-- contact -->
+      <div id="Reservation" class="container grid grid-cols-1 items-center gap-4 py-14 lg:grid-cols-2 lg:gap-10 lg:py-28 max-w-[85%] overflow-hidden">
         <aside>
           <h2 data-aos="fade-right" data-aos-duration="1000" class="contact-title">Book a Table for you</h2>
           <form action="#">
@@ -251,6 +270,72 @@
         </aside>
       </div>
     </section>
+    <footer><!-- footer -->
+      <div id="Contact" class="bg-[url('IMAGES/golden-cutlery-with-textile.jpg')] bg-center bg-cover h-[750px]">
+        <div>
+          <div class="total-footer grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-4 lg:gap-3 max-w-[80%]">
+            <div class="flex flex-col gap-3 ">
+              <div class="flex items-center">
+                <img class="h-[50px] w-[50px]" src="IMAGES/FOODIFY LOGO.png" alt="Foodify logo">
+                <h1 class="text-accent text-[25px] font-secondary">Foodify Network</h1>
+              </div>         
+              <h5 class="contact-subject text-left text-primary text-[18px]">Embark on a culinary adventure and savor the authentic flavors of Luxarois cuisine, all set in an ambiance of timeless elegance and irresistible charm at Savorium.</h5>
+            </div>
+            <div class="flex flex-col gap-3">  
+              <h2 class="text-left text-accent text-[25px]">Popular Product</h2>
+              <ul class="contact-subject text-left text-primary text-[18px]">
+                <li><a href="#" class="transition hover:text-accent">Chicken Fried Rice</a></li>
+                <li><a href="#" class="transition hover:text-accent">Thai Red Curry</a></li>
+                <li><a href="#" class="transition hover:text-accent">Beef tenderloin steak</a></li>
+                <li><a href="#" class="transition hover:text-accent">Grilled Chicken</a></li>
+              </ul> 
+            </div>
+            <div class="flex flex-col gap-3">  
+              <h2 class="text-left text-accent text-[25px]">Follow Us</h2>
+              <ul class="contact-subject text-left text-primary text-[18px]">
+                <li class="flex items-center gap-3">
+                  <i class="fab fa-facebook-square text-2xl transition hover:text-accent" ></i>
+                  <a href="#" class="transition hover:text-accent">Facebook</a>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i class="fab fa-twitter-square text-2xl transition hover:text-accent" ></i>
+                  <a href="#" class="transition hover:text-accent">Twitter</a>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i class="fab fa-linkedin text-2xl transition hover:text-accent" ></i>
+                  <a href="#" class="transition hover:text-accent">LinkedIn</a>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i class="fab fa-instagram text-2xl transition hover:text-accent" ></i>
+                  <a href="#" class="transition hover:text-accent">Instagram</a>
+                </li>
+              </ul> 
+            </div>
+            <div class="flex flex-col gap-3">  
+              <h2 class="text-left text-accent text-[25px]">Contact Us</h2>
+              <ul class="contact-subject text-left text-primary text-[18px]">
+                <li class="flex items-center gap-3">
+                  <i class='bxr  bx-location text-2xl transition hover:text-accent'></i> 
+                  <a href="#" class="transition hover:text-accent">Saint Paul, MN 55112-6629 USA</a>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i class='bxr  bx-envelope text-2xl transition hover:text-accent'></i> 
+                  <a href="#" class="transition hover:text-accent">support@raddito.com</a>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i class='bxr  bx-phone text-2xl transition hover:text-accent'></i> 
+                  <a href="#" class="transition hover:text-accent">123 456 789</a>
+                </li>
+                
+              </ul> 
+            </div>
+          </div>
+        </div>
+        <div class="foot-border text-center border-t border-t-accent max-w-[80%] m-auto">
+          <h1 class="text-primary text-[20px]">Copyright ©2025 Design & Developed by <span class="text-accent font-secondary ">Adewole</span></h1>
+        </div>
+      </div>
+    </footer>
   </main>
   <script src="JAVASCRIPT/index.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
